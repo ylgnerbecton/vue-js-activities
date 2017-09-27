@@ -20,13 +20,13 @@
    new Vue({
         el: '#exercise',
         data: {
-            name: 'Yelken González',
+            name: '',
             age: 29,
-            href: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAbAAAAAJGMzNjU5ODRkLTFjNjAtNDFhNi05M2VlLWQyYTcwMTUzMDNiMQ.jpg'
+            href: ''
         },
         methods: {
             randomFloat: function(){
-                return Math.random();
+                return Math.random().toFixed(2);
             }
         }
     });
